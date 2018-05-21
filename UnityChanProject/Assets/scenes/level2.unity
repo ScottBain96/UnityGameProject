@@ -1235,7 +1235,7 @@ Transform:
   - {fileID: 2045139807}
   - {fileID: 1312620698}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1528076403
 GameObject:
@@ -1451,7 +1451,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4498764712305296, guid: 4c5b6ad7d371ff94580ceff13066e39e, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4823856631586520, guid: 4c5b6ad7d371ff94580ceff13066e39e, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1467,7 +1467,41 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4823856631586520, guid: 4c5b6ad7d371ff94580ceff13066e39e, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.060806733
+      value: 0.060806725
+      objectReference: {fileID: 0}
+    - target: {fileID: 82684461785863296, guid: 4c5b6ad7d371ff94580ceff13066e39e,
+        type: 2}
+      propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 82684461785863296, guid: 4c5b6ad7d371ff94580ceff13066e39e,
+        type: 2}
+      propertyPath: MaxDistance
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904980976226154, guid: 4c5b6ad7d371ff94580ceff13066e39e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.356
+      objectReference: {fileID: 0}
+    - target: {fileID: 82684461785863296, guid: 4c5b6ad7d371ff94580ceff13066e39e,
+        type: 2}
+      propertyPath: rolloffMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 82684461785863296, guid: 4c5b6ad7d371ff94580ceff13066e39e,
+        type: 2}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 82684461785863296, guid: 4c5b6ad7d371ff94580ceff13066e39e,
+        type: 2}
+      propertyPath: m_Volume
+      value: 0.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 82465934680096954, guid: 4c5b6ad7d371ff94580ceff13066e39e,
+        type: 2}
+      propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4c5b6ad7d371ff94580ceff13066e39e, type: 2}
