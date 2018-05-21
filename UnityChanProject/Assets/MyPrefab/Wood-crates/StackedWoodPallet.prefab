@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 64336028591605638}
   - component: {fileID: 95697607916495960}
   m_Layer: 0
-  m_Name: FullStacked
+  m_Name: StackedWoodPallet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
