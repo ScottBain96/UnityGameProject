@@ -12,6 +12,7 @@ TagManager:
   - Goal
   - NotFall
   - DeathSpehere
+  - KeyBox
   layers:
   - Default
   - TransparentFX
