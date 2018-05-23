@@ -8,10 +8,10 @@ public class respawn : MonoBehaviour {
     public static int levelN = 0;
     public static int Falling = 0;
     private Vector3 startPos;
-
+  
     private Vector3 startPostCube;
     private Quaternion startRot;
-    
+    public bool hello = false;
    // public GameObject enableCheckText;
 
 
@@ -43,8 +43,10 @@ public class respawn : MonoBehaviour {
 
     }
 
+
+
     //detect colision with trigger
-     void OnTriggerEnter(Collider col)
+    void OnTriggerEnter(Collider col)
     {
 
        if (col.tag == "Fall")

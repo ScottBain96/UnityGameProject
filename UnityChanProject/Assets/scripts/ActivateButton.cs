@@ -4,16 +4,11 @@ using UnityEngine;
 
 public class ActivateButton : MonoBehaviour {
     public GameObject GameObject;
-	// Use this for initialization
-	void Start () {
-		
-	}
-    public string hello;
-	// Update is called once per frame
-	void Update () {
-		
-	}
+   // private Vector3 startPos;
 
+
+    /*
+    //Single hit trigger (doesn't require holding the button down)
     private void OnTriggerEnter(Collider col)
     {
         if (col.tag == "KeyBox")
@@ -26,4 +21,34 @@ public class ActivateButton : MonoBehaviour {
             hello = "no";
         }
     }
+    */
+    //Trigger will stay open if there is a collision
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.tag == "KeyBox")
+        {
+         
+                GameObject.GetComponent<Animator>().enabled = true;
+            
+           
+
+
+            //Move wall
+            //GameObject.transform.position += GameObject.transform.forward * Time.deltaTime;
+
+        }
+    
+        
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "KeyBox")
+        {
+            GameObject.GetComponent<Animator>().enabled = false;
+
+        }
+    }
+
+
 }
