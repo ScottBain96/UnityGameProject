@@ -17,17 +17,17 @@ public class Behaviours : MonoBehaviour {
 
         }
 
-        if (Input.GetKeyDown("1"))
-        {
-            GetComponent<Animator>().Play("POSE31", 0, 0f);
+       // if (Input.GetKeyDown("1"))
+       // {
+         //   GetComponent<Animator>().Play("POSE31", 0, 0f);
 
-        }
+       // }
         if (Input.GetKeyDown("2"))
         {
             GetComponent<Animator>().Play("WIN00", 0, 0f);
 
         }
-        if (Input.GetKeyDown("3"))
+        if (Input.GetKeyDown("1"))
         {
             GetComponent<Animator>().Play("smile2@unitychan", 0, 0f);
 

@@ -100,7 +100,7 @@ public class respawn : MonoBehaviour {
             startRot = col.transform.rotation;
             Destroy(col.gameObject);
             //GetComponent<Animator>().Play("REFLESH00", -1, 0f);
-            GetComponent<Animator>().Play("POSE31", -1, 0f);
+           // GetComponent<Animator>().Play("POSE31", -1, 0f);
             
             //enableCheckText.SetActive(true);
 
